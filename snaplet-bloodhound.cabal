@@ -13,13 +13,13 @@ build-type:          Simple
 extra-source-files:  LICENSE
                    , README.md
 
-cabal-version:       >=1.10
+cabal-version:       >=1.2
 
 library
   exposed-modules:     Snap.Snaplet.Bloodhound
   other-extensions:    FlexibleContexts, FlexibleInstances, OverloadedStrings, Rank2Types, TemplateHaskell, UndecidableInstances
   build-depends:       base
-                     , bloodhound <= 0.12.1.0
+                     , bloodhound
                      , configurator
                      , http-client
                      , lens
