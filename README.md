@@ -1,9 +1,9 @@
-#snaplet-bloodhound
+# snaplet-bloodhound
 A boilerplate [snaplet](https://github.com/snapframework/snap) to conveniently
 allow [bloodhound](https://github.com/bitemyapp/bloodhound) [ElasticSearch](https://www.elastic.co/products/elasticsearch)
 functions to be lifted into snap web handlers.
 
-##Usage
+## Usage
 1. Add the `BloodhoundEnv` to your apps core state:
 
   ```haskell
